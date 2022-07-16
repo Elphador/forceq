@@ -20,13 +20,18 @@ bot_token = bot_token
 async def start_cmd(bot, msg):
 
       if force_channel:
-           try:
-              user = await bot.get_chat_member(force_channel, msg.from_user.id)
-              await msg.reply_text ("leave it")
-              return
-           expect UserNotParticipant:
-             await msg.reply_text("heheh its worled ")
-           return      
-   await msg.reply_text("blghghhbb")
+            try:
+              user = await bot.get_chat_member(force_channel, msg.from_use.id)
+              if user.status == "kicked out ":
+                  await msg.reply_text ("Your are baned contact @Ethiopians_project to unban yourself ")
+                  return 
+            expect UserNotParticipant:
+              await msg.reply_text (" wyewyeuuehe ")
 
 app.run()
+
+
+
+
+
+
