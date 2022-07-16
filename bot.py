@@ -23,11 +23,10 @@ async def start_cmd(bot, msg):
            try:
               user = await bot.get_chat_member(force_channel, msg.from_user.id)
               await msg.reply_text ("leave it")
-
-
+              return
            expect UserNotParticipant:
              await msg.reply_text("heheh its worled ")
-
-
+           return      
+   await msg.reply_text("blghghhbb")
 
 app.run()
