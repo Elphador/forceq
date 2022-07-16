@@ -7,8 +7,7 @@ api_id = 16232300
 
 api_hash = "4faffcdb49aeb245e77e62ec87f7ecf5"
 
-
- bot_token = "5411260511:AAHu_2SIGnZ9oEU3ulCRv0T8jRnw5mQCq9Y"
+bot_token = "5411260511:AAHu_2SIGnZ9oEU3ulCRv0T8jRnw5mQCq9Y"
 force_channel = "@spoken99"
 app = Client (
 "my_bot" ,
